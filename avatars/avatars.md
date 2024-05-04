@@ -94,3 +94,33 @@ body {
 2. <code>body</code>의 <code>margin</code> 때문에 스크롤이 생기기 때문에 스크롤을 제거하기 위해 <code>margin</code>값을 0으로 설정
 3. 남자 아바타와 여자 아바타의 줄을 바꾸기 위해 <code>display</code> 속성의 값을 <code>flex</code>로 설정하고, <code>flex-direction</code> 속성 값을 <code>column-reverse</code>로 설정
 4. <code>container</code> 클래스를 화면 가운데에 위치하기 위해 <code>align-items</code> 속성 값을 <code>center</code>로 설정하여 수직 정렬, <code>justify-content</code> 속성 값을 <code>center</code>로 설정하여 수평 정렬함
+
+```css
+.status_off {
+  position: absolute;
+  border: 3px solid white;
+  background-color: #DBDBDB;
+  width:20px;
+  height:20px;
+  border-radius: 70%;
+  margin-left: 55px;
+  margin-top: 55px;
+}
+
+.status_on {
+  position: absolute;
+  border: 3px solid white;
+  background-color: #4CFE88;
+  width:20px;
+  height:20px;
+  border-radius: 70%;
+  margin-left: 55px;
+  margin-top: 55px;
+}
+```
+1. 아바타 이미지와 아바타 활성화 상태바를 겹친 상태로 표현하기 위해 <code>position</code> 속성 값으로 <code>absolute</code>를 사용 
+2. 활성화 상태바 테두리를 꾸미기 위해 <code>border</code> 속성을 사용
+3. 각 활성화 상태바의 색상을 지정하기 위해 <code>background-color</code> 속성 사용
+4. 활성화 상태바의 크기를 지정하기 위해 <code>width</code> & <code>height</code> 속성 사용
+5. 활성화 상태바를 원 모양으로 만들기 위해 <code>border-radius</code> 속성 사용
+6. 활성화 상태바의 위치를 조정하기 위해 <code>margin-left</code> & <code>margin-top</code> 속성 사용
