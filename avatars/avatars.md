@@ -58,8 +58,20 @@
   </div>
 </body>
 ```
-
 1. <code>container</code> 클래스를 생성하여 전체 영역 설정
 2. 남자 아바타와 여자 아바타를 따로 관리하기 위해 각각 <code>male_row</code>, <code>female_row</code> id 값을 가지는 <code>div</code> 태그를 생성
 3. 성별 태그 안에 각 아바타를 생성하기 위해 <code>face_$</code>의 id 값을 가지는<code>div</code> 태그를 생성
 4. 각 아바타 태그 안에 <code>img</code> 태그로 이미지 파일을 불러오고, 아바타의 상태 정보를 제공하기 위해 <code>status_on</code>과 <code>status_off</code> 클래스 태그를 생성
+---
+## CSS
+```css
+img {
+  width: 64px;
+  height: 64px;
+  border-radius: 70%;
+  margin: 10px;
+}
+```
+1.  이미지 크기를 64px x 64px로 설정
+2.  이미지를 원 모양으로 만들기 위해 <code>border-radius</code> 속성 사용
+3.  이미지 간 간격을 20px로 설정하기 위해 <code>margin</code> 속성을 이용해 각 이미지마다 10px 부여
