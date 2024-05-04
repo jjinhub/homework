@@ -27,7 +27,6 @@ body {
 }
 
 .status_off {
-  display: block;
   position: absolute;
   border: 3px solid white;
   background-color: #DBDBDB;
@@ -39,7 +38,6 @@ body {
 }
 
 .status_on {
-  display: block;
   position: absolute;
   border: 3px solid white;
   background-color: #4CFE88;
